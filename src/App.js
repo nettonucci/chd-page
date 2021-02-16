@@ -7,6 +7,13 @@ import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import logo from './assets/logo1.png';
 import { RadiusButton, TextButton } from './styled-components/app';
+import Page1 from './components/page 1';
+import Page2 from './components/page 2';
+import Page3 from './components/page 3';
+import Page4 from './components/page 4';
+import Page5 from './components/page 5';
+import Page6 from './components/page 6';
+import Footer from './components/footer';
 
 const useStyles = makeStyles(theme => ({
 	root: {
@@ -59,6 +66,13 @@ export default function App() {
 					<RadiusButton color="inherit">Peça uma proposta</RadiusButton>
 				</Toolbar>
 			</AppBar>
+			<Page1 />
+			<Page2 />
+			<Page3 />
+			<Page4 />
+			<Page5 />
+			<Page6 />
+			<Footer />
 		</div>
 	);
 }
