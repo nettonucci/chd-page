@@ -18,6 +18,14 @@ export const RadiusButton = styled(Button)`
 	}
 `;
 
+export const UnderLineBlue = styled.div`
+	/* position: absolute;
+	top: 500px; */
+	background-color: #0b81bb;
+	width: 100%;
+	height: 20px;
+`;
+
 export const TextButton = styled.p`
 	/* text-align: left; */
 	/* font: normal normal bold 20px/30px Poppins; */

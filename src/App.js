@@ -4,9 +4,9 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Link from '@material-ui/core/Link';
 import Typography from '@material-ui/core/Typography';
-import Button from '@material-ui/core/Button';
+import Grid from '@material-ui/core/Grid';
 import logo from './assets/logo1.png';
-import { RadiusButton, TextButton } from './styled-components/app';
+import { RadiusButton, UnderLineBlue } from './styled-components/app';
 import Page1 from './components/page 1';
 import Page2 from './components/page 2';
 import Page3 from './components/page 3';
@@ -19,12 +19,16 @@ const useStyles = makeStyles(theme => ({
 	root: {
 		flexGrow: 1,
 	},
+	body: {
+		backgroundColor: '#fff',
+		width: '90%',
+	},
 	menuButton: {
 		marginRight: theme.spacing(2),
 	},
 	toolbar: {
 		height: 178,
-		width: 'auto',
+		// width: '100%',
 		backgroundColor: '#fff',
 	},
 	links: {
@@ -66,6 +70,7 @@ export default function App() {
 					<RadiusButton color="inherit">Peça uma proposta</RadiusButton>
 				</Toolbar>
 			</AppBar>
+
 			<Page1 />
 			<Page2 />
 			<Page3 />
