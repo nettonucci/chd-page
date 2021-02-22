@@ -51,7 +51,7 @@ export default function App() {
 
 	return (
 		<div className={classes.root}>
-			<AppBar position="static">
+			{/* <AppBar position="static">
 				<Toolbar className={classes.toolbar}>
 					<img alt="logo" className={classes.logo} src={logo} />
 					<div className={classes.title} />
@@ -69,12 +69,12 @@ export default function App() {
 					</Link>
 					<RadiusButton color="inherit">Peça uma proposta</RadiusButton>
 				</Toolbar>
-			</AppBar>
+			</AppBar> */}
 
-			<Page1 />
+			{/* <Page1 /> */}
 			<Page2 />
-			<Page3 />
-			<Page4 />
+			{/* <Page3 /> */}
+			{/* <Page4 /> */}
 			<Page5 />
 			<Page6 />
 			<Footer />

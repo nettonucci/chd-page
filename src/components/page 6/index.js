@@ -9,7 +9,7 @@ const useStyles = makeStyles(theme => ({
 		height: 'auto',
 		textAlign: 'center',
 		paddingTop: 10,
-		paddingBottom: 30,
+		paddingBottom: 100,
 	},
 }));
 
