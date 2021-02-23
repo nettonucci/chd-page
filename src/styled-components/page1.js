@@ -3,11 +3,12 @@ import styled from 'styled-components';
 import { Button } from '@material-ui/core';
 
 export const UnderLineBlue = styled.div`
-	/* position: absolute;
-	top: 500px; */
+	position: absolute;
+	top: 600px;
 	background-color: #0b81bb;
 	width: 100%;
 	height: 20px;
+	z-index: -1;
 `;
 
 export const RadiusButton = styled(Button)`
