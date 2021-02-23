@@ -62,16 +62,16 @@ export default function Page4() {
 						centered
 						infinite
 					>
-						<img src={cli3} />
-						<img src={cli9} />
-						<img src={cli7} />
-						<img src={cli4} />
-						<img src={cli5} />
-						<img src={cli1} />
-						<img src={cli2} />
-						<img src={cli8} />
-						<img src={cli6} />
-						<img src={cli10} />
+						<img src={cli3} style={{ width: 200, height: 200 }} />
+						<img src={cli9} style={{ width: 200, height: 200 }} />
+						<img src={cli7} style={{ width: 200, height: 200 }} />
+						<img src={cli4} style={{ width: 200, height: 200 }} />
+						<img src={cli5} style={{ width: 200, height: 200 }} />
+						<img src={cli1} style={{ width: 200, height: 200 }} />
+						<img src={cli2} style={{ width: 200, height: 200 }} />
+						<img src={cli8} style={{ width: 200, height: 200 }} />
+						<img src={cli6} style={{ width: 200, height: 200 }} />
+						<img src={cli10} style={{ width: 200, height: 200 }} />
 					</Carousel>
 				</div>
 			</div>
