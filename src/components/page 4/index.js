@@ -62,9 +62,9 @@ export default function Page4() {
 						centered
 						infinite
 					>
-						<img src={cli3} style={{ width: 200, height: 200 }} />
-						<img src={cli9} style={{ width: 200, height: 200 }} />
-						<img src={cli7} style={{ width: 200, height: 200 }} />
+						<img src={cli3} style={{ width: 150, height: 150 }} />
+						<img src={cli9} style={{ width: 150, height: 150 }} />
+						<img src={cli7} style={{ width: 150, height: 150 }} />
 						<img src={cli4} style={{ width: 200, height: 200 }} />
 						<img src={cli5} style={{ width: 200, height: 200 }} />
 						<img src={cli1} style={{ width: 200, height: 200 }} />
