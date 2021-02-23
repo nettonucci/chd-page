@@ -15,6 +15,9 @@ import cli8 from '../../assets/Clientes/Natura.png';
 import cli9 from '../../assets/Clientes/Starcbucks.png';
 import cli10 from '../../assets/Clientes/Viena.png';
 
+import seta_dir from '../../assets/seta-dir.png';
+import seta_esq from '../../assets/seta-esq.png';
+
 const useStyles = makeStyles(theme => ({
 	root: {
 		width: '100%',
@@ -49,18 +52,31 @@ export default function Page4() {
 					// height: '100vh',
 				}}
 			>
-				<div style={{ width: '90%' }}>
+				<div style={{ width: '85%' }}>
 					<Carousel
-						slidesPerPage={5}
+						slidesPerPage={4}
 						slidesPerScroll={1}
 						animationSpeed={500}
 						autoPlay={5000}
 						stopAutoPlayOnHover
-						offset={50}
-						itemWidth={300}
+						offset={30}
+						itemWidth={270}
 						clickToChange
-						centered
+						// centered
 						infinite
+						arrowLeft={
+							<img
+								src={seta_esq}
+								style={{ width: 50, height: 50, cursor: 'pointer' }}
+							/>
+						}
+						arrowRight={
+							<img
+								src={seta_dir}
+								style={{ width: 50, height: 50, cursor: 'pointer' }}
+							/>
+						}
+						addArrowClickHandler={true}
 					>
 						<img src={cli3} style={{ width: 150, height: 150 }} />
 						<img src={cli9} style={{ width: 150, height: 150 }} />
