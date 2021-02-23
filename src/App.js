@@ -2,7 +2,7 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
-import Link from '@material-ui/core/Link';
+import { Link, animateScroll as scroll } from 'react-scroll';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 import logo from './assets/logo1.png';
@@ -51,17 +51,33 @@ export default function App() {
 
 	return (
 		<div className={classes.root}>
-			{/* <AppBar position="static">
+			<AppBar position="static">
 				<Toolbar className={classes.toolbar}>
 					<img alt="logo" className={classes.logo} src={logo} />
 					<div className={classes.title} />
 					<Link href="#" className={classes.links} onClick={preventDefault}>
 						Início
 					</Link>
-					<Link href="#" className={classes.links} onClick={preventDefault}>
+					<Link
+						href="#"
+						to="clients"
+						spy={true}
+						smooth={true}
+						offset={-70}
+						duration={500}
+						className={classes.links}
+					>
 						Clientes
 					</Link>
-					<Link href="#" className={classes.links} onClick={preventDefault}>
+					<Link
+						href="#"
+						to="service_solu"
+						spy={true}
+						smooth={true}
+						offset={-70}
+						duration={500}
+						className={classes.links}
+					>
 						Serviços e Soluções
 					</Link>
 					<Link href="#" className={classes.links} onClick={preventDefault}>
@@ -69,11 +85,13 @@ export default function App() {
 					</Link>
 					<RadiusButton color="inherit">Peça uma proposta</RadiusButton>
 				</Toolbar>
-			</AppBar> */}
+			</AppBar>
 
-			{/* <Page1 /> */}
+			<Page1 />
+			<a id="service_solu" />
 			<Page2 />
 			<Page3 />
+			<a id="clients" />
 			<Page4 />
 			<Page5 />
 			<Page6 />
