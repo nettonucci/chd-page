@@ -42,9 +42,9 @@ export default function Page4() {
 				Alguns dos nossos clientes
 			</h1>
 			<Carousel
-				slidesPerPage={5}
-				slidesPerScroll={2}
-				animationSpeed={1500}
+				slidesPerPage={4}
+				slidesPerScroll={1}
+				animationSpeed={500}
 				autoPlay={3000}
 				stopAutoPlayOnHover
 				offset={50}
