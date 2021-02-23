@@ -28,6 +28,7 @@ export default function Page3() {
 							position: 'absolute',
 							width: 685,
 							marginTop: -10,
+							marginLeft: 30,
 						}}
 					/>
 				</Grid>

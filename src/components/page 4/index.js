@@ -41,29 +41,40 @@ export default function Page4() {
 			>
 				Alguns dos nossos clientes
 			</h1>
-			<Carousel
-				slidesPerPage={4}
-				slidesPerScroll={1}
-				animationSpeed={500}
-				autoPlay={3000}
-				stopAutoPlayOnHover
-				offset={50}
-				itemWidth={250}
-				clickToChange
-				centered
-				infinite
+			<div
+				style={{
+					display: 'flex',
+					justifyContent: 'center',
+					alignItems: 'center',
+					// height: '100vh',
+				}}
 			>
-				<img src={cli1} />
-				<img src={cli2} />
-				<img src={cli3} />
-				<img src={cli4} />
-				<img src={cli5} />
-				<img src={cli6} />
-				<img src={cli7} />
-				<img src={cli8} />
-				<img src={cli9} />
-				<img src={cli10} />
-			</Carousel>
+				<div style={{ width: '90%' }}>
+					<Carousel
+						slidesPerPage={4}
+						slidesPerScroll={1}
+						animationSpeed={500}
+						autoPlay={3000}
+						stopAutoPlayOnHover
+						offset={50}
+						itemWidth={300}
+						clickToChange
+						centered
+						infinite
+					>
+						<img src={cli3} />
+						<img src={cli9} />
+						<img src={cli7} />
+						<img src={cli4} />
+						<img src={cli5} />
+						<img src={cli1} />
+						<img src={cli2} />
+						<img src={cli8} />
+						<img src={cli6} />
+						<img src={cli10} />
+					</Carousel>
+				</div>
+			</div>
 			<RadiusButton color="inherit">Veja todas as obras</RadiusButton>
 		</div>
 	);
