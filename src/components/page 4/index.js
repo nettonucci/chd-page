@@ -52,9 +52,9 @@ export default function Page4() {
 				<div style={{ width: '90%' }}>
 					<Carousel
 						slidesPerPage={5}
-						slidesPerScroll={5}
+						slidesPerScroll={1}
 						animationSpeed={500}
-						autoPlay={3000}
+						autoPlay={5000}
 						stopAutoPlayOnHover
 						offset={50}
 						itemWidth={300}
