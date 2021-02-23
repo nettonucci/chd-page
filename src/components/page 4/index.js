@@ -2,6 +2,7 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Carousel from '@brainhubeu/react-carousel';
 import '@brainhubeu/react-carousel/lib/style.css';
+import { RadiusButton } from '../../styled-components/page4';
 
 import cli1 from '../../assets/Clientes/Adidas.png';
 import cli2 from '../../assets/Clientes/Anbima.png';
@@ -63,6 +64,7 @@ export default function Page4() {
 				<img src={cli9} />
 				<img src={cli10} />
 			</Carousel>
+			<RadiusButton color="inherit">Veja todas as obras</RadiusButton>
 		</div>
 	);
 }

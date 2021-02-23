@@ -8,7 +8,7 @@ const useStyles = makeStyles(theme => ({
 		width: '100%',
 		height: 'auto',
 		textAlign: 'center',
-		paddingTop: 10,
+		paddingTop: 40,
 		paddingBottom: 100,
 	},
 }));
