@@ -7,7 +7,7 @@ const useStyles = makeStyles(theme => ({
 	root: {
 		backgroundColor: '#01436A',
 		width: '100%',
-		height: 'auto',
+		height: 335,
 		textAlign: 'start',
 		paddingTop: 10,
 		paddingBottom: 140,
@@ -26,9 +26,10 @@ export default function Page3() {
 						src={sobre_img}
 						style={{
 							position: 'absolute',
-							width: 685,
+							width: 600,
+							height: 485,
 							marginTop: -10,
-							marginLeft: 30,
+							// marginLeft: 10,
 						}}
 					/>
 				</Grid>
@@ -43,6 +44,7 @@ export default function Page3() {
 					>
 						Um pouco sobre a CHD
 					</h1>
+
 					<a style={{ color: '#FFFFFF' }}>
 						Com mais de 20 anos no mercado de Ar Condicionado,
 					</a>

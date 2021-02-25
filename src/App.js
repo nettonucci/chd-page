@@ -87,6 +87,8 @@ export default function App() {
 				</Toolbar>
 			</AppBar>
 
+			<br />
+			<br />
 			<Page1 />
 			<a id="service_solu" />
 			<Page2 />
